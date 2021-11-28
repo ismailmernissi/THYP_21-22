@@ -1,0 +1,285 @@
+	
+0	
+@context	"http://localhost/omeka_THYP21-22/api-context"
+@id	"http://localhost/omeka_THYP21-22/api/resource_templates/1"
+@type	"o:ResourceTemplate"
+o:id	1
+o:label	"Base Resource"
+o:owner	null
+o:resource_class	null
+o:title_property	null
+o:description_property	null
+o:resource_template_property	
+0	
+o:property	
+@id	"http://localhost/omeka_THYP21-22/api/properties/1"
+o:id	1
+o:alternate_label	null
+o:alternate_comment	null
+o:data_type	[]
+o:is_required	false
+o:is_private	false
+1	
+o:property	
+@id	"http://localhost/omeka_THYP21-22/api/properties/15"
+o:id	15
+o:alternate_label	null
+o:alternate_comment	null
+o:data_type	[]
+o:is_required	false
+o:is_private	false
+2	
+o:property	
+@id	"http://localhost/omeka_THYP21-22/api/properties/8"
+o:id	8
+o:alternate_label	null
+o:alternate_comment	null
+o:data_type	[]
+o:is_required	false
+o:is_private	false
+3	
+o:property	
+@id	"http://localhost/omeka_THYP21-22/api/properties/2"
+o:id	2
+o:alternate_label	null
+o:alternate_comment	null
+o:data_type	[]
+o:is_required	false
+o:is_private	false
+4	
+o:property	
+@id	"http://localhost/omeka_THYP21-22/api/properties/7"
+o:id	7
+o:alternate_label	null
+o:alternate_comment	null
+o:data_type	[]
+o:is_required	false
+o:is_private	false
+5	
+o:property	
+@id	"http://localhost/omeka_THYP21-22/api/properties/4"
+o:id	4
+o:alternate_label	null
+o:alternate_comment	null
+o:data_type	[]
+o:is_required	false
+o:is_private	false
+6	
+o:property	
+@id	"http://localhost/omeka_THYP21-22/api/properties/9"
+o:id	9
+o:alternate_label	null
+o:alternate_comment	null
+o:data_type	[]
+o:is_required	false
+o:is_private	false
+7	
+o:property	
+@id	"http://localhost/omeka_THYP21-22/api/properties/12"
+o:id	12
+o:alternate_label	null
+o:alternate_comment	null
+o:data_type	[]
+o:is_required	false
+o:is_private	false
+8	
+o:property	
+@id	"http://localhost/omeka_THYP21-22/api/properties/40"
+o:id	40
+o:alternate_label	"Place"
+o:alternate_comment	null
+o:data_type	[]
+o:is_required	false
+o:is_private	false
+9	
+o:property	
+@id	"http://localhost/omeka_THYP21-22/api/properties/5"
+o:id	5
+o:alternate_label	null
+o:alternate_comment	null
+o:data_type	[]
+o:is_required	false
+o:is_private	false
+10	
+o:property	
+@id	"http://localhost/omeka_THYP21-22/api/properties/17"
+o:id	17
+o:alternate_label	null
+o:alternate_comment	null
+o:data_type	[]
+o:is_required	false
+o:is_private	false
+11	
+o:property	
+@id	"http://localhost/omeka_THYP21-22/api/properties/6"
+o:id	6
+o:alternate_label	null
+o:alternate_comment	null
+o:data_type	[]
+o:is_required	false
+o:is_private	false
+12	
+o:property	
+@id	"http://localhost/omeka_THYP21-22/api/properties/25"
+o:id	25
+o:alternate_label	null
+o:alternate_comment	null
+o:data_type	[]
+o:is_required	false
+o:is_private	false
+13	
+o:property	
+@id	"http://localhost/omeka_THYP21-22/api/properties/10"
+o:id	10
+o:alternate_label	null
+o:alternate_comment	null
+o:data_type	[]
+o:is_required	false
+o:is_private	false
+14	
+o:property	
+@id	"http://localhost/omeka_THYP21-22/api/properties/13"
+o:id	13
+o:alternate_label	null
+o:alternate_comment	null
+o:data_type	[]
+o:is_required	false
+o:is_private	false
+15	
+o:property	
+@id	"http://localhost/omeka_THYP21-22/api/properties/29"
+o:id	29
+o:alternate_label	null
+o:alternate_comment	null
+o:data_type	[]
+o:is_required	false
+o:is_private	false
+16	
+o:property	
+@id	"http://localhost/omeka_THYP21-22/api/properties/30"
+o:id	30
+o:alternate_label	null
+o:alternate_comment	null
+o:data_type	[]
+o:is_required	false
+o:is_private	false
+17	
+o:property	
+@id	"http://localhost/omeka_THYP21-22/api/properties/50"
+o:id	50
+o:alternate_label	null
+o:alternate_comment	null
+o:data_type	[]
+o:is_required	false
+o:is_private	false
+18	
+o:property	
+@id	"http://localhost/omeka_THYP21-22/api/properties/3"
+o:id	3
+o:alternate_label	null
+o:alternate_comment	null
+o:data_type	[]
+o:is_required	false
+o:is_private	false
+19	
+o:property	
+@id	"http://localhost/omeka_THYP21-22/api/properties/41"
+o:id	41
+o:alternate_label	null
+o:alternate_comment	null
+o:data_type	[]
+o:is_required	false
+o:is_private	false
+1	
+@context	"http://localhost/omeka_THYP21-22/api-context"
+@id	"http://localhost/omeka_THYP21-22/api/resource_templates/2"
+@type	"o:ResourceTemplate"
+o:id	2
+o:label	"http ressource"
+o:owner	
+@id	"http://localhost/omeka_THYP21-22/api/users/1"
+o:id	1
+o:resource_class	
+@id	"http://localhost/omeka_THYP21-22/api/resource_classes/24"
+o:id	24
+o:title_property	null
+o:description_property	null
+o:resource_template_property	
+0	
+o:property	
+@id	"http://localhost/omeka_THYP21-22/api/properties/1"
+o:id	1
+o:alternate_label	null
+o:alternate_comment	null
+o:data_type	[]
+o:is_required	false
+o:is_private	false
+1	
+o:property	
+@id	"http://localhost/omeka_THYP21-22/api/properties/4"
+o:id	4
+o:alternate_label	null
+o:alternate_comment	null
+o:data_type	[]
+o:is_required	false
+o:is_private	false
+2	
+o:property	
+@id	"http://localhost/omeka_THYP21-22/api/properties/186"
+o:id	186
+o:alternate_label	null
+o:alternate_comment	null
+o:data_type	[]
+o:is_required	false
+o:is_private	false
+3	
+o:property	
+@id	"http://localhost/omeka_THYP21-22/api/properties/185"
+o:id	185
+o:alternate_label	null
+o:alternate_comment	null
+o:data_type	[]
+o:is_required	false
+o:is_private	false
+4	
+o:property	
+@id	"http://localhost/omeka_THYP21-22/api/properties/187"
+o:id	187
+o:alternate_label	null
+o:alternate_comment	null
+o:data_type	[]
+o:is_required	false
+o:is_private	false
+2	
+@context	"http://localhost/omeka_THYP21-22/api-context"
+@id	"http://localhost/omeka_THYP21-22/api/resource_templates/3"
+@type	"o:ResourceTemplate"
+o:id	3
+o:label	"metadata ressource"
+o:owner	
+@id	"http://localhost/omeka_THYP21-22/api/users/1"
+o:id	1
+o:resource_class	
+@id	"http://localhost/omeka_THYP21-22/api/resource_classes/24"
+o:id	24
+o:title_property	null
+o:description_property	null
+o:resource_template_property	
+0	
+o:property	
+@id	"http://localhost/omeka_THYP21-22/api/properties/1"
+o:id	1
+o:alternate_label	"metadata ressource"
+o:alternate_comment	null
+o:data_type	[]
+o:is_required	false
+o:is_private	false
+1	
+o:property	
+@id	"http://localhost/omeka_THYP21-22/api/properties/4"
+o:id	4
+o:alternate_label	null
+o:alternate_comment	null
+o:data_type	[]
+o:is_required	false
+o:is_private	false
