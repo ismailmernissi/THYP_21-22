@@ -1,0 +1,60 @@
+	
+@context	"http://localhost/omeka_THYP21-22/api-context"
+@id	"http://localhost/omeka_THYP21-22/api/resource_templates/2"
+@type	"o:ResourceTemplate"
+o:id	2
+o:label	"http ressource"
+o:owner	
+@id	"http://localhost/omeka_THYP21-22/api/users/1"
+o:id	1
+o:resource_class	
+@id	"http://localhost/omeka_THYP21-22/api/resource_classes/24"
+o:id	24
+o:title_property	null
+o:description_property	null
+o:resource_template_property	
+0	
+o:property	
+@id	"http://localhost/omeka_THYP21-22/api/properties/1"
+o:id	1
+o:alternate_label	null
+o:alternate_comment	null
+o:data_type	[]
+o:is_required	false
+o:is_private	false
+1	
+o:property	
+@id	"http://localhost/omeka_THYP21-22/api/properties/4"
+o:id	4
+o:alternate_label	null
+o:alternate_comment	null
+o:data_type	[]
+o:is_required	false
+o:is_private	false
+2	
+o:property	
+@id	"http://localhost/omeka_THYP21-22/api/properties/186"
+o:id	186
+o:alternate_label	null
+o:alternate_comment	null
+o:data_type	[]
+o:is_required	false
+o:is_private	false
+3	
+o:property	
+@id	"http://localhost/omeka_THYP21-22/api/properties/185"
+o:id	185
+o:alternate_label	null
+o:alternate_comment	null
+o:data_type	[]
+o:is_required	false
+o:is_private	false
+4	
+o:property	
+@id	"http://localhost/omeka_THYP21-22/api/properties/187"
+o:id	187
+o:alternate_label	null
+o:alternate_comment	null
+o:data_type	[]
+o:is_required	false
+o:is_private	false
