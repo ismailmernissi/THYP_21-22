@@ -1,4 +1,6 @@
 
-https://github.com/ismailmernissi/THYP_21-22/blob/master/ex1/index.html
+https://ismailmernissi.github.io/THYP_21-22/ex1/index.html
 
-https://github.com/ismailmernissi/THYP_21-22/blob/master/projet.md
+https://ismailmernissi.github.io/THYP_21-22/omk/index.html
+
+https://ismailmernissi.github.io/THYP_21-22/projet.md
