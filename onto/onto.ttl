@@ -9,7 +9,7 @@
 @prefix SDS: <https://github.com/ismailmernissi/THYP_21-22/tree/master/onto#> .
 
 <https:github.com/ismailmernissi/THYP_21-22/tree/master/onto#> a owl:Ontology ;
-    dcterms:title "SALLE DE SPORT" .
+    dcterms:title "RESTAURANT" .
 
 SDS:Moniteur a rdfs:Class ;
     rdfs:label "SemanticPosition" ;
