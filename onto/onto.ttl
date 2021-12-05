@@ -1,66 +1,88 @@
-{
-    "o:label": "http ressource",
-    "o:resource_template_property": [
-        {
-            "o:alternate_label": null,
-            "o:alternate_comment": null,
-            "o:is_required": false,
-            "o:is_private": false,
-            "data_types": [],
-            "vocabulary_namespace_uri": "http:\/\/purl.org\/dc\/terms\/",
-            "vocabulary_label": "Dublin Core",
-            "local_name": "title",
-            "label": "Title"
-        },
-        {
-            "o:alternate_label": null,
-            "o:alternate_comment": null,
-            "o:is_required": false,
-            "o:is_private": false,
-            "data_types": [],
-            "vocabulary_namespace_uri": "http:\/\/purl.org\/dc\/terms\/",
-            "vocabulary_label": "Dublin Core",
-            "local_name": "description",
-            "label": "Description"
-        },
-        {
-            "o:alternate_label": null,
-            "o:alternate_comment": null,
-            "o:is_required": false,
-            "o:is_private": false,
-            "data_types": [],
-            "vocabulary_namespace_uri": "http:\/\/www.w3.org\/2011\/http#",
-            "vocabulary_label": "http",
-            "local_name": "absolutePath",
-            "label": "Absolute path"
-        },
-        {
-            "o:alternate_label": null,
-            "o:alternate_comment": null,
-            "o:is_required": false,
-            "o:is_private": false,
-            "data_types": [],
-            "vocabulary_namespace_uri": "http:\/\/www.w3.org\/2011\/http#",
-            "vocabulary_label": "http",
-            "local_name": "absoluteURI",
-            "label": "Absolute URI"
-        },
-        {
-            "o:alternate_label": null,
-            "o:alternate_comment": null,
-            "o:is_required": false,
-            "o:is_private": false,
-            "data_types": [],
-            "vocabulary_namespace_uri": "http:\/\/www.w3.org\/2011\/http#",
-            "vocabulary_label": "http",
-            "local_name": "authority",
-            "label": "Authority"
-        }
-    ],
-    "o:resource_class": {
-        "vocabulary_namespace_uri": "http:\/\/purl.org\/dc\/dcmitype\/",
-        "vocabulary_label": "Dublin Core Type",
-        "local_name": "Dataset",
-        "label": "Dataset"
-    }
-}
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix o: <http://omeka.org/s/vocabs/o#> .
+@prefix ma: <http://www.w3.org/ns/ma-ont#>.
+@prefix mo: <http://purl.org/ontology/mo#>.
+@prefix SDS: <https://github.com/ismailmernissi/THYP_21-22/tree/master/onto#> .
+
+<https:github.com/ismailmernissi/THYP_21-22/tree/master/onto#> a owl:Ontology ;
+    dcterms:title "SALLE DE SPORT" .
+
+SDS:Moniteur a rdfs:Class ;
+    rdfs:label "SemanticPosition" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+SDS:Activite a rdfs:Class ;
+    rdfs:label "Crible" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+SDS:CriblePosition a rdfs:Class ;
+    rdfs:label "CriblePosition" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+SDS:CribleCarto a rdfs:Class ;
+    rdfs:label "Cartographie d'un crible" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+SDS:Actant a rdfs:Class ;
+    rdfs:label "Actant" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+SDS:Doc a rdfs:Class ;
+    rdfs:label "Doc" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+
+
+SDS:x a rdf:Property ;
+    rdfs:label "x" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+SDS:y a rdf:Property ;
+    rdfs:label "y" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+SDS:xRatingValue a rdf:Property ;
+    rdfs:label "xRatingValue" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+SDS:yRatingValue a rdf:Property ;
+    rdfs:label "yRatingValue" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+SDS:degradName a rdf:Property ;
+    rdfs:label "degradName" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+SDS:degradColors a rdf:Property ;
+    rdfs:label "degradColors" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+SDS:creationDate a rdf:Property ;
+    rdfs:label "creationDate" ;
+    rdfs:domain o:Resource .
+
+SDS:hasActant a rdf:Property ;
+    rdfs:label "a comme actant" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+SDS:hasDoc a rdf:Property ;
+    rdfs:label "a comme document" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
